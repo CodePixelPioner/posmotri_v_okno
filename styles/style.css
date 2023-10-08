@@ -84,11 +84,10 @@ ol {
 }
 
 .result__video-container .preloader {
-  position: absolute;
-  inset: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .result__video {
@@ -102,11 +101,10 @@ ol {
 }
 
 .content__list .preloader {
-  position: absolute;
-  inset: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .content__video-card {
